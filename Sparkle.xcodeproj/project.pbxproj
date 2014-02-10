@@ -1653,6 +1653,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Shiny Frog di Matteo Rattotti e C. S.N.C.";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1660,6 +1662,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Shiny Frog di Matteo Rattotti e C. S.N.C.";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1695,6 +1699,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1717,6 +1722,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1738,6 +1744,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = finish_installation;
+				SDKROOT = macosx;
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1772,6 +1779,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61072EB20DF2640C008FE88B /* ConfigFrameworkReleaseGCSupport.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Shiny Frog di Matteo Rattotti e C. S.N.C.";
+				SDKROOT = macosx;
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1780,7 +1789,8 @@
 			baseConfigurationReference = 615409A8103BA09100125AF1 /* ConfigTestAppReleaseGCSupport.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Sparkle Test App.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Shiny Frog di Matteo Rattotti e C. S.N.C. (9K33E3U3T4)";
+				PROVISIONING_PROFILE = "BDCA47E2-2105-4A1B-8716-1B635B5187FB";
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1810,7 +1820,8 @@
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Sparkle Test App.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Shiny Frog di Matteo Rattotti e C. S.N.C. (9K33E3U3T4)";
+				PROVISIONING_PROFILE = "BDCA47E2-2105-4A1B-8716-1B635B5187FB";
 			};
 			name = Debug;
 		};
@@ -1819,7 +1830,8 @@
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Sparkle Test App.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Shiny Frog di Matteo Rattotti e C. S.N.C. (9K33E3U3T4)";
+				PROVISIONING_PROFILE = "BDCA47E2-2105-4A1B-8716-1B635B5187FB";
 			};
 			name = Release;
 		};
@@ -1828,6 +1840,7 @@
 			baseConfigurationReference = 8B887B711517F447000BB292 /* ConfigServiceDebug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SandboxService.plist;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1836,6 +1849,7 @@
 			baseConfigurationReference = 8B887B721517F447000BB292 /* ConfigServiceRelease.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SandboxService.plist;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1844,6 +1858,7 @@
 			baseConfigurationReference = 8B887B721517F447000BB292 /* ConfigServiceRelease.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SandboxService.plist;
+				SDKROOT = macosx;
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1858,6 +1873,7 @@
 				03B5E64815D399500038BB67 /* Release (GC dual-mode; 10.5+) */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Sparkle" */ = {
 			isa = XCConfigurationList;
